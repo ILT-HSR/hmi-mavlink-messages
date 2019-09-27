@@ -23,7 +23,7 @@
   <messages>
     <message id="201" name="RADIATION_DETECTOR_DATA">
       <description>Radiation Detector Data</description>
-      <field type="float"    name="timestamp"    units="s">Time since system boot</field>
+      <field type="uint32_t" name="timestamp"    units="s">Time since system boot</field>
       <field type="uint32_t" name="sensor_value" units="n/a">Detector value scaled by factor</field>
       <field type="uint32_t" name="factor"       units="none">Scaling factor</field>
     </message>
